@@ -1,0 +1,37 @@
+name: jan_scanner
+description: JANコードスキャナー 仕入管理アプリ
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # JANコード（バーコード）スキャン
+  mobile_scanner: ^5.1.1
+
+  # HTTP クライアント
+  http: ^1.2.1
+
+  # 設定の永続化（サーバーIP、PIN）
+  shared_preferences: ^2.3.2
+
+  # UUID生成（セッションID）
+  uuid: ^4.4.0
+
+  # 状態管理
+  provider: ^6.1.2
+
+  # アイコン
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
