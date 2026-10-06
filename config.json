@@ -1,0 +1,10 @@
+{
+  "camera_index": 0,
+  "scan_interval_ms": 200,
+  "duplicate_cooldown_sec": 3,
+  "auto_input_delay_sec": 0.05,
+  "auto_input_suffix": "enter",
+  "excel_output_path": "output/scan_log.xlsx",
+  "sheet_name": "スキャン履歴",
+  "sound_enabled": true
+}
